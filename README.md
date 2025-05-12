@@ -4,6 +4,10 @@ Projeto desenvolvido como parte da Sprint 1 da disciplina de Desenvolvimento Fro
 
 ## 🎯 Objetivo do Projeto
 
+Desenvolver um robô assistente digital acessível e intuitivo, integrado ao aplicativo do Hospital das Clínicas, com o objetivo de auxiliar pacientes com dificuldades de navegação, leitura ou entendimento das funcionalidades do aplicativo.
+
+O foco é melhorar a experiência do usuário com o app, auxiliando na marcação de consultas, no acompanhamento após alta médica, especialmente para pessoas idosas, com baixa alfabetização ou deficiências visuais, oferecendo uma interação simplificada, acessível e humanizada. Com isso, o atendimento poderá ser realizado mesmo a distância, promovendo inclusão e autonomia.
+
 Criar um site estático com HTML, CSS e JavaScript puro, sem frameworks, garantindo:
 - Responsividade
 - Acessibilidade
