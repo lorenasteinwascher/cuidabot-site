@@ -3,15 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Página Inicial - Sprint 1</title>
+  <title>CuidaBot</title>
   <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-container img {
+      height: 40px;
+      width: auto;
+    }
+
+    .logo-container h1 {
+      font-size: 1.5rem;
+      color: white;
+    }
+  </style>
 </head>
 <body>
   <header>
     <nav class="menu">
-      <h1 class="logo">Sprint 1</h1>
+      <div class="logo-container">
+        <img src="img/logo-cuidabot.jpg" alt="Logo CuidaBot" />
+        <h1>CuidaBot</h1>
+      </div>
       <ul>
-        <li><a href="index.html">Início</a></li>
+        <li><a href="index.html" class="ativo">Início</a></li>
         <li><a href="integrantes.html">Integrantes</a></li>
         <li><a href="faq.html">FAQ</a></li>
         <li><a href="contato.html">Contato</a></li>
@@ -22,23 +42,32 @@
 
   <main>
     <section class="hero">
-      <h2>Bem-vindo ao nosso Projeto!</h2>
-      <p>Essa é a página inicial da nossa Sprint 1. Explore as funcionalidades e conheça os integrantes do grupo.</p>
+      <h2>Seja bem-vindo ao CuidaBot</h2>
+      <p>
+        O CuidaBot é um assistente digital acessível e inteligente, desenvolvido para ampliar a autonomia de pacientes no uso do aplicativo do Hospital das Clínicas. Com uma interface intuitiva e recursos de acessibilidade, o CuidaBot simplifica a jornada do paciente, oferecendo uma experiência digital segura, acolhedora e eficiente.
+      </p>
       <a href="solucoes.html" class="botao">Conheça a Solução</a>
     </section>
 
     <section class="destaques">
-      <h3>Destaques do Projeto</h3>
+      <h3>Por que escolher o CuidaBot?</h3>
       <ul>
-        <li>💡 Design Responsivo</li>
-        <li>⚙️ Interatividade com JavaScript</li>
-        <li>🔍 Usabilidade e Acessibilidade</li>
+        <li>📱 Design responsivo, adaptado para todos os dispositivos.</li>
+        <li>⚙️ Interações intuitivas, com foco na usabilidade e autonomia do usuário.</li>
+        <li>🧑‍🦯 Acessibilidade aprimorada para públicos com necessidades específicas.</li>
       </ul>
+    </section>
+
+    <section class="objetivo">
+      <h3>Nossa Missão</h3>
+      <p>
+        Oferecer uma solução digital inclusiva e de fácil utilização, integrada ao aplicativo do Hospital das Clínicas, com foco em pacientes com limitações de leitura, navegação ou compreensão tecnológica. O CuidaBot atua como um guia humanizado para marcação de consultas, orientações pós-atendimento e suporte remoto, promovendo inclusão, independência e bem-estar digital.
+      </p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 - Equipe Sprint 1 | Todos os direitos reservados.</p>
+    <p>&copy; 2025 - CuidaBot | Todos os direitos reservados.</p>
   </footer>
 
   <script src="js/script.js"></script>

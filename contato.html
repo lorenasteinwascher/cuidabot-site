@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contato - Sprint 1</title>
+  <title>Contato - CuidaBot</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
     <nav class="menu">
-      <h1 class="logo">Sprint 1</h1>
+      <h1 class="logo">CuidaBot</h1>
       <ul>
         <li><a href="index.html">Início</a></li>
         <li><a href="integrantes.html">Integrantes</a></li>
@@ -22,25 +22,28 @@
 
   <main>
     <section class="contato">
-      <h2>Entre em Contato</h2>
+      <h2>Fale com a Equipe CuidaBot</h2>
+      <p>
+        Caso tenha dúvidas, sugestões ou precise de mais informações sobre o projeto, envie sua mensagem para nós. Teremos o prazer em responder.
+      </p>
       <form id="formContato" action="#" method="post" novalidate>
         <label for="nome">Nome completo:</label>
-        <input type="text" id="nome" name="nome" required />
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
 
         <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required />
+        <input type="email" id="email" name="email" placeholder="exemplo@email.com" required />
 
         <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
 
-        <button type="submit">Enviar</button>
+        <button type="submit">Enviar Mensagem</button>
         <p id="mensagemErro" class="erro"></p>
       </form>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 - Equipe Sprint 1 | Todos os direitos reservados.</p>
+    <p>&copy; 2025 - CuidaBot | Todos os direitos reservados.</p>
   </footer>
 
   <script src="js/script.js"></script>
